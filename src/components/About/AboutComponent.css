@@ -1,0 +1,60 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+
+  .row {
+    background-image: url('../../../images/divScanner0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 7px 7px var(--div-box-shadow-color);
+    padding: 1.1rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    text-align: left;
+    text-indent: 0.2rem;
+    margin-top: 7.5rem;
+    transition: all 0.3s ease-out;
+  }
+
+  .about {
+    overflow-wrap: break-word;
+    max-width: 400px;
+    white-space: pre-wrap;
+    color: white;
+    margin-bottom: 0rem;
+    text-indent: 0;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0.2rem;
+  }
+
+  .labl-about {
+    color: white;
+    margin-bottom: 0.5rem;
+    font-size: x-large;
+    font-family: "Prompt", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  @media screen and (min-width: 700px) {
+    .row {
+      gap: 1rem;
+    }
+   
+    .about {
+      max-width: 700px;
+      font-size: x-large;
+    }
+
+    .labl-about {
+      font-size: xx-large;
+    }
+  }
+
