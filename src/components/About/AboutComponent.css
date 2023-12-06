@@ -20,6 +20,11 @@
     transition: all 0.3s ease-out;
   }
 
+  .br { 
+    display: block; 
+    margin-bottom: 0.5em; 
+  }
+
   .about {
     overflow-wrap: break-word;
     max-width: 400px;
@@ -29,10 +34,46 @@
     font-family: "Ubuntu", Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: large;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0rem;
+    text-align: justify;
+    text-justify: distribute;
+    hyphens: auto;
+  }
+
+  .about2 {
+    overflow-wrap: break-word;
+    max-width: 400px;
+    white-space: pre-wrap;
+    color: white;
+    text-indent: 0;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0rem;
+    text-align: justify;
+    text-justify: distribute;
+    hyphens: auto;
+    margin-bottom: 0.3rem;
   }
 
   .labl-about {
+    color: white;
+    margin-bottom: 0.5rem;
+    font-size: x-large;
+    font-family: "Prompt", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  .label2 {
+    font-size: larger;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .label1 {
     color: white;
     margin-bottom: 0.5rem;
     font-size: x-large;
@@ -52,8 +93,21 @@
       font-size: x-large;
     }
 
+    .about2 {
+      max-width: 700px;
+      font-size: x-large;
+    }
+
     .labl-about {
       font-size: xx-large;
+    }
+
+    .label1 {
+      font-size: xx-large;
+    }
+
+    .label2 {
+      font-size: x-large;
     }
   }
 
