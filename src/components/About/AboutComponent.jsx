@@ -56,7 +56,7 @@ export function AboutComponent() {
             </p>
             <p className='about2'>
                 Join my community dedicated to food quality! Track and control your grocery shopping 
-                in a new, innovative way with NFControl.
+                in a new, innovative way with Scanify.
             </p>
             
         </div>
